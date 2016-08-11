@@ -1,5 +1,5 @@
-# HW1
-## Devops Homework-1 Provisioning and Configuring Servers
+# JP
+## setup for Provisioning and Configuring Servers
 
 This repository providing instructions to Provision and configure webserver in  Amazon AWS. 
 
@@ -15,10 +15,6 @@ AWS_SECRET_KEY
 ```
 
 d. Next for AWS you need to generate a key-pair, security group and .pem file . 
-
-## Requirements for the repository
-
-This project need npm, node.js and ansible in order to work. These dependencies can be installed by running the InstallDeps.sh shell script. 
 
 ##Steps to follow in order to provision the VM's
 
@@ -37,5 +33,5 @@ f. Go to the management consoles and verify that the VM's have been provisioned.
 
 ##Installing http via ansible
 ```
-bash InstallNginx.sh
+bash InstallWebserver.sh
 ```
