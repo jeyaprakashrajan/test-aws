@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd ansible
-ansible-playbook nginx.yml -i inventory
+ansible-playbook webserver.yml -i inventory

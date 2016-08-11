@@ -1,0 +1,12 @@
+--
+- hosts: hostname
+  user: root
+  tasks:
+   - name: installing httpd
+     action: yum name=httpd state=installed
+   - name: copy repo file
+     copy: scr=index.html dest=/var/www/html/index.html
+   - name: start apache
+     service: 
+      name: httpd
+      state: restarted

@@ -1,1 +1,5 @@
 aws ansible_ssh_host=52.41.25.76 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/home/rajan/jeyaprakash.pem
+aws ansible_ssh_host=52.43.93.119 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=./keys/devops.pem
+aws ansible_ssh_host=52.43.149.194 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=./keys/devops.pem
+aws ansible_ssh_host=52.42.125.76 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=./keys/devops.pem
+aws ansible_ssh_host=52.38.210.10 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=./keys/devops.pem
