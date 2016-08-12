@@ -10,3 +10,11 @@
      service: 
       name: httpd
       state: restarted
+   - uri: url=https://hostname
+
+   - action: uri url=https://hostname return_content=yes
+     register: webpage
+
+   - action: fail
+     when: "'Hello World' not in webpage.content"
+
