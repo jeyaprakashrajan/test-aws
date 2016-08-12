@@ -1,4 +1,4 @@
-# JP
+# JP DevOps
 ## setup for Provisioning and Configuring Servers
 
 This repository providing instructions to Provision and configure webserver in  Amazon AWS. 
