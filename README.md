@@ -35,3 +35,4 @@ f. Go to the management consoles and verify that the VM's have been provisioned.
 ```
 bash InstallWebserver.sh
 ```
+"# redis" 
